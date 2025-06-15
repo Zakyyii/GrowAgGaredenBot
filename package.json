@@ -1,0 +1,24 @@
+{
+  "name": "bot_urgarden",
+  "version": "1.0.0",
+  "description": "Discord bot for monitoring Grow a Garden API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "prod": "node index.js",
+    "setup": "node setup.js",
+    "test-api": "node test-api.js",
+    "data-recovery": "node data-recovery.js"
+  },
+  "keywords": ["discord", "bot", "garden", "api", "monitoring"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "node-cron": "^4.1.0"
+  }
+}
